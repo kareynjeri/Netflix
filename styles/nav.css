@@ -1,0 +1,29 @@
+.nav-bar {
+    display: flex;
+    align-items: center;
+    height: 9vh;
+    background-color: rgb(19, 18, 18);
+    position: fixed;
+    z-index: 99;
+    width: 100vw;
+} 
+
+
+  .nav-bar  ul {
+      list-style: none;
+      display: flex;
+      padding-right: 20px; 
+  }
+
+  .nav-bar li {
+      padding-right: 20px;
+      cursor: pointer;
+      font-size: 13px;
+      font-weight: bold;
+  }
+
+  .nav-img {
+    height: 70px;
+    padding-right: 35px;  
+    padding-left: 40px;
+}

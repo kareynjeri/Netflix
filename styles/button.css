@@ -1,0 +1,82 @@
+   .btn {
+       display: flex;
+       background: none;  
+       border: none;
+       padding: 8px;
+       font-size: 17px;
+       border-radius: 5px;
+       align-items: center;
+       cursor: pointer; 
+   } 
+
+   .btn-sml {
+       width: 100px;
+       border: none;
+       background-color: white;
+       
+   }
+
+   .btn-lg {
+       width: 150px;
+       background-color:#777272;
+       opacity: 0.5;
+       
+   }
+
+   .btn-sml:hover {
+       background:rgb(179, 193, 196);
+   }
+
+   .btn-lg :hover {
+       opacity: 1;
+   }
+
+   .btn-nav {
+       background: none;
+       color: white;
+       width: 180px;
+       border: solid 1px;
+       padding: 5px; 
+       display: flex;
+       align-items: center;
+   }
+    
+   .button-wrapper {
+       display: flex;
+   }
+
+   .button-wrapper :not(:first-child){
+       margin-left: 20px;
+   }
+
+   /* .btn-circle {
+       height: 50px;
+       width: 50px;
+       border: none;
+       font-size: 20px;
+       color: #fff;
+       border-radius: 50%;
+       background-color: deeppink;
+   }
+
+   .floating {
+       right: 10px;
+       top: 150xpx;
+       position: absolute;
+   } */
+
+   .footer-btn {
+        background-color: #141414;
+       border: solid 1px grey;
+        color: grey;
+       height: 30px;
+       width: 100px;
+       cursor: pointer;
+       align-items: center;
+   }
+
+   .footer-btn :hover {
+       color: white;
+   }
+
+   

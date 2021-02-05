@@ -1,0 +1,174 @@
+
+  .hero-image {
+    background: url("../images/header.jpg");
+    height: 96vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .header {
+      color: white;
+  }
+
+  .hero-paragraph {
+      padding-top: 20px;
+  }
+
+  .nav-img {
+      height: 70px;
+      padding-right: 35px;
+      padding-left: 40px;
+  }
+
+  .nav-bar {
+      display: flex;
+      align-items: center;
+      height: 9vh;
+      background-color: rgb(19, 18, 18);
+  } 
+
+    .nav-bar ul {
+        list-style: none;
+        display: flex;
+        padding-right: 20px; 
+    }
+
+    .nav-bar li {
+        padding-right: 20px;
+        cursor: pointer;
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .netflix-logo-container {
+        display: flex;
+        flex-direction: row;      
+    }
+
+    .netflix-logo-container > h4{
+        padding-top: 8px;
+        font-size: 10px;
+        letter-spacing: 2px;
+        padding-left: 4px;
+        font-weight: bold;
+    }
+
+    .netflix-logo {
+        width: 12px;    
+    }
+
+    .batgirl {
+        width: 250px;
+        padding-bottom: 14px;
+    }
+
+    .hero-text {
+        padding-top: 150px;
+        padding-left: 40px;
+    }
+
+    .search-tab {
+        padding-left: 400px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .netflix-content {
+        background: #141414;
+        display: flex;
+        overflow: auto;
+        overflow-x: scroll;
+        scroll-behavior: smooth;
+        padding-top: 30px;
+        padding-left: 60px;
+    }
+
+    .movies-series {
+    margin-right: 4px;
+    display: flex;
+    }
+
+    .netflix-content::-webkit-scrollbar {
+        height: 1px;
+    }
+/* 
+    .netflix-content > h1 {
+        color: white;
+        font-size: 17px;
+        padding-left: 22px;
+        padding-top: 10px;
+    } */
+
+ .category-title {
+     color: white;
+     padding-left: 60px;
+     padding-top: 20px;
+     font-size: 19px;
+     font-weight: bolder;
+     cursor: pointer;
+ } 
+
+
+ .chevrons-right-wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+  .category-heading {
+    display: flex;
+    align-items: center;
+  }
+
+  /* .chevrons-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+  }
+
+  .chevrons-wrapper > h5 {
+      color: white;
+      padding-top: 7px;
+      padding-left: 5px;
+  }
+
+  .category-heading > h2 :hover  + .chevrons-wrapper {
+      opacity: 1;
+  } */
+
+  .netflix-footer {
+       padding-left:60px;
+      padding-top: 30px;
+      color: grey;
+      font-size: 13px;
+      font-family: sans-serif;
+      font-weight: bolder;
+      margin-top: 100px; 
+  }
+
+  .footer-content  > h4 {
+    padding-bottom: 15px;
+  }
+
+  .footer-content {
+      margin-right: 50px;
+  } 
+
+  .copyright {
+      padding-left: 190px;
+      padding-top: 20px;
+      padding-bottom: 30px;
+      color: grey;
+      font-size: 13px;
+  }
+
+  .footer-wrapper {
+      display: flex;
+      justify-content: space-evenly; 
+  }
+
+  
+
+ 
+ 

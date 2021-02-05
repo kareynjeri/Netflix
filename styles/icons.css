@@ -1,0 +1,58 @@
+.icons {
+    height: 44px;
+    width: 44px;
+    border: solid 2px rgb(99, 98, 98);
+    color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.icon-inverse {
+    background-color: #fff;
+    color: #000;
+}
+
+.netflix-icons {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+ 
+ .card-2-icons {
+    padding-bottom: 10px;
+    padding-top: 20px;
+} 
+
+  .chevrons-right {
+      color: white;
+      font-size: 12px;
+      padding-top: 10px;
+  }  
+
+/* .chevron-down-icon {
+    margin-left: 40px;
+} */
+
+
+ .footer-icons {
+    display: flex;
+    padding-bottom: 20px;
+    padding-left: 130px;
+    
+ }
+
+ .socials-icon {
+    border: solid 1px grey;
+    width: 30px;
+    margin-right: 20px; 
+    color: #0c0707;
+    background-color: grey;
+    columns: #161212;
+    
+
+    
+ } 
+
+

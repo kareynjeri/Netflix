@@ -7,6 +7,7 @@ body{
 }
 .container {
     height: 150vh;
+    width: 100%;
     background: none;
     background-color: transparent;
     position: relative;
@@ -18,13 +19,11 @@ body{
      width: 100%; 
      background-repeat: no-repeat;
      background-size: cover;
-     opacity: 0.8; 
-     
+     opacity: 0.8;  
  }
 
- .banner-img {
-     width: 205px;
-     
+ .banner-img {  
+     width: 205px; 
  }
 
  .header-wrapper {
@@ -53,8 +52,6 @@ body{
      padding-bottom: 30px;
      font-weight: bolder;
  }
-
- 
 
  .input {
      height: 50px;
@@ -88,7 +85,7 @@ body{
 .checkbox-container h4 {
     padding-left: 127px;
     font-size:13px;
-    color: rgb(153, 145, 145);;
+    color: rgb(153, 145, 145);
 }
 
 .form-icon-wrapper {
@@ -133,4 +130,82 @@ body{
 
 .form-bottom  a {
     color: royalblue;
+}
+
+
+.log-facebook {
+    padding-left: 6px;
+    color: rgb(153, 145, 145);
+    padding-bottom: 10px;
+
+}
+
+.checkbox-container {
+    padding-bottom: 40px;
+}
+
+.footer  {
+    width: 100%;
+    color: rgb(153, 145, 145);
+    background-color: rgba(0,0,0,.75);
+    position: absolute;
+    bottom: 0;
+    height: 230px;  
+    
+}
+
+ .footer a {
+    color:  rgb(153, 145, 145); 
+}
+
+.footer-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    
+}
+
+.contacts {
+    display: flex;
+    margin : 20px 0px;
+    padding-left: 200px;
+    
+} 
+
+.contacts > a {
+    margin-right: 8px;
+    font-size: 17px;
+    font-weight: bolder;
+    color: gray;
+}
+
+.content {
+    display: flex;
+    flex-direction: column; 
+}
+
+.content > a {
+    margin-bottom: 15px;
+}
+
+                                                                                  
+.footer-button {
+    padding-left: 200px;
+}
+
+.footer-btn {
+    height: 44px;
+    width: 130px;
+    padding: 10px;
+    display: flex;
+    align-items: center;  
+    text-align: center;
+    justify-content: space-between;
+    margin-left: 200px;
+    background-color:black;
+}
+
+.link:hover{
+    border-bottom: solid 1px;
+    width: fit-content;
 }

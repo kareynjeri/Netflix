@@ -79,4 +79,31 @@
        color: white;
    }
 
+   .header-btn {
+       height: 40px;
+       width: 90px;
+       border: none;
+       outline: none;
+       background: none;
+       background-color: #e50914;
+       border-radius: 4px;
+       color: white;
+       font-weight: bolder;
+       
+   }
+
+   .form-btn {
+       height: 58px;
+       width: 210px;
+        border: none;
+       background-color: #e50914;
+       border-radius: 2px;
+       color: white;
+       font-size: larger;
+       font-weight: bolder;
+       display: flex;
+       align-items: center;
+       
+   }
+
    

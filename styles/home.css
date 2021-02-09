@@ -1,5 +1,4 @@
-
-  .hero-image {
+ .hero-image {
     background: url("../images/header.jpg");
     height: 96vh;
     background-position: center;
@@ -119,23 +118,6 @@
     display: flex;
     align-items: center;
   }
-
-  /* .chevrons-wrapper {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      opacity: 0;
-  }
-
-  .chevrons-wrapper > h5 {
-      color: white;
-      padding-top: 7px;
-      padding-left: 5px;
-  }
-
-  .category-heading > h2 :hover  + .chevrons-wrapper {
-      opacity: 1;
-  } */
 
   .netflix-footer {
        padding-left:60px;

@@ -12,15 +12,13 @@
    .btn-sml {
        width: 100px;
        border: none;
-       background-color: white;
-       
+       background-color: white;  
    }
 
    .btn-lg {
        width: 150px;
        background-color:#777272;
-       opacity: 0.5;
-       
+       opacity: 0.5;   
    }
 
    .btn-sml:hover {
@@ -49,22 +47,6 @@
        margin-left: 20px;
    }
 
-   /* .btn-circle {
-       height: 50px;
-       width: 50px;
-       border: none;
-       font-size: 20px;
-       color: #fff;
-       border-radius: 50%;
-       background-color: deeppink;
-   }
-
-   .floating {
-       right: 10px;
-       top: 150xpx;
-       position: absolute;
-   } */
-
    .footer-btn {
         background-color: #141414;
        border: solid 1px grey;
@@ -80,16 +62,16 @@
    }
 
    .header-btn {
-       height: 40px;
-       width: 90px;
+       height: 34px;
+       width: 85px;
        border: none;
        outline: none;
        background: none;
-       background-color: #e50914;
-       border-radius: 4px;
+       background-color: #e50914;;
+       border-radius: 3px;
        color: white;
-       font-weight: bolder;
-       
+       font-size: 1rem;
+       font-weight: bolder; 
    }
 
    .form-btn {
@@ -102,8 +84,7 @@
        font-size: larger;
        font-weight: bolder;
        display: flex;
-       align-items: center;
-       
+       align-items: center; 
    }
 
    .sign-up-button {

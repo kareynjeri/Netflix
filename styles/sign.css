@@ -150,10 +150,8 @@ body{
     background-color: rgba(0,0,0,.75);
     position: absolute;
     bottom: 0;
-    height: 230px;  
-    
+    height: 230px;    
 }
-
  .footer a {
     color:  rgb(153, 145, 145); 
 }
@@ -161,15 +159,13 @@ body{
 .footer-container {
     display: flex;
     width: 100%;
-    justify-content: space-evenly;
-    
+    justify-content: space-evenly; 
 }
 
 .contacts {
     display: flex;
     margin : 20px 0px;
-    padding-left: 200px;
-    
+    padding-left: 200px;   
 } 
 
 .contacts > a {

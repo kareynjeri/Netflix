@@ -164,24 +164,6 @@
     justify-content: center;
 }   
 
-.footer-sign-up {
-    width: 100%;
-    /* color: rgb(153, 145, 145); */
-    color: yellowgreen;
-    background-color: black;
-    height: 370px;
-    padding-top: 100px;
-}
-
-.footer-sign-up a {
-    color:rgb(110, 108, 108);
-}
-
-.footer-button-sign-up {
-    margin-bottom: 50px;
-    height: 400px;
-}
-
 .sign-up-input {
     display: flex;
     flex-direction: column;

@@ -31,16 +31,10 @@
       padding-top: 10px;
   }  
 
-/* .chevron-down-icon {
-    margin-left: 40px;
-} */
-
-
  .footer-icons {
     display: flex;
     padding-bottom: 20px;
-    padding-left: 130px;
-    
+    padding-left: 125px; 
  }
 
  .socials-icon {
@@ -49,10 +43,7 @@
     margin-right: 20px; 
     color: #0c0707;
     background-color: grey;
-    columns: #161212;
-    
-
-    
+    columns: #161212; 
  } 
 
  .footer-icon {

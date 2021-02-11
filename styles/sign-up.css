@@ -175,3 +175,23 @@
 .mb-30 {
     margin-bottom: 60px;
 }
+
+
+/* // MEDIA QUERRIES FOR BREAKPOINTS :500PX, 700PX, 800PX,1300PX // */
+
+@media only screen and (max-width: 700px) {
+    .hero-section {
+        background-image: url('../images/53233279-40356050.jpg');
+        height: 50vh;
+    }
+    .hero-header {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 2px;
+        margin-top: -11px;
+    }
+    .story-img {
+        width: 50px;
+        height: 9px;
+    }
+}

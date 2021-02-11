@@ -50,4 +50,23 @@
      padding-right: 8px;
  }
 
+ .facebook-icon {
+    border: solid 1px royalblue;
+    height: 20px;
+    background-color: royalblue;
+    color: white;
+}
+
+.form-icon-wrapper {
+    display: flex;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.form-icon-wrapper > p {
+    color:rgb(154, 145, 145);
+    padding-bottom: 3px;
+    padding-left: 4px;
+}
+
 
